@@ -12,7 +12,7 @@ export class FirstComponentComponent implements OnInit {
   public mensaje: String;
 
   constructor(private messageService: MessageService) {
-    this.mensaje = 'Hola Fir';
+    this.mensaje = 'Hola Firebase';
   }
 
   ngOnInit() {}
